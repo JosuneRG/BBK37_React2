@@ -1,0 +1,47 @@
+/* Contenedor de toda la vista, centrado */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ocupa toda la altura de la pantalla */
+  background-color: #e8f0fe;
+}
+
+/* Contenedor del contador */
+.counter-container {
+  max-width: 300px;
+  padding: 30px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.counter-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.counter-buttons button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter-buttons button:hover {
+  background-color: #0056b3;
+}
